@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/about_fragment.xml" value="0.2866847826086957" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_account_login_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_activity.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_country_picker_cell.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_country_picker_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_echo_canceller_calibration_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_email_account_creation_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_email_account_validation_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_generic_account_login_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_phone_account_creation_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_phone_account_linking_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_phone_account_validation_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_qr_code_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_remote_provisioning_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/assistant_welcome_fragment.xml" value="0.3671875" />
+        <entry key="..\:/Git/GitHub/LinphoneAndroid-Production/app/src/main/res/layout/call_activity.xml" value="0.3671875" />
         <entry key="..\:/Users/DELL/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable-watch/sym_def_app_icon.xml" value="0.26614583333333336" />
         <entry key="..\:/Vanillas Technologies/Call My Way/app/src/main/res/drawable/assistant_button.xml" value="0.26614583333333336" />
         <entry key="..\:/Vanillas Technologies/Call My Way/app/src/main/res/drawable/linphone_logo_tinted.xml" value="0.1495" />

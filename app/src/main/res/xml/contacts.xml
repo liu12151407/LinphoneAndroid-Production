@@ -5,7 +5,7 @@
         android:detailColumn="data3"
         android:detailSocialSummary="true"
         android:icon="@drawable/linphone_logo_tinted"
-        android:mimeType="vnd.android.cursor.item/vnd.org.linphone.provider.sip_address"
+        android:mimeType="vnd.android.cursor.item/vnd.org.callmyway.provider.sip_address"
         android:summaryColumn="data2" />
     <!-- You can't use @string/linphone_address_mime_type above ! You have to hardcode it... -->
 </ContactsSource>

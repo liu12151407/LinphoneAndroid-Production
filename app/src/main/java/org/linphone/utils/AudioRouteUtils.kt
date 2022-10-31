@@ -88,6 +88,7 @@ class AudioRouteUtils {
                         applyAudioRouteChange(call, (arrayListOf(AudioDevice.Type.Headphones, AudioDevice.Type.Headset)), false)
                     }
                 }
+                else -> {}
             }
         }
 

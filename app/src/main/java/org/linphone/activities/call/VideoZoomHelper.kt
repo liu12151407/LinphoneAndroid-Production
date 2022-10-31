@@ -24,12 +24,12 @@ import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import android.view.View
-import kotlin.math.max
-import kotlin.math.min
 import org.linphone.LinphoneApplication.Companion.coreContext
 import org.linphone.core.Call
+import kotlin.math.*
 
-class VideoZoomHelper(context: Context, private var videoDisplayView: View) : GestureDetector.SimpleOnGestureListener() {
+class VideoZoomHelper(context: Context, private var videoDisplayView: View) :
+    GestureDetector.SimpleOnGestureListener() {
     private var scaleDetector: ScaleGestureDetector
 
     private var zoomFactor = 1f
@@ -47,10 +47,13 @@ class VideoZoomHelper(context: Context, private var videoDisplayView: View) : Ge
                     zoomFactor *= detector.scaleFactor
                     // Don't let the object get too small or too large.
                     // Zoom to make the video fill the screen vertically
-                    val portraitZoomFactor = videoDisplayView.height.toFloat() / (3 * videoDisplayView.width / 4)
+                    val portraitZoomFactor =
+                        videoDisplayView.height.toFloat() / (3 * videoDisplayView.width / 4)
                     // Zoom to make the video fill the screen horizontally
-                    val landscapeZoomFactor = videoDisplayView.width.toFloat() / (3 * videoDisplayView.height / 4)
-                    zoomFactor = max(0.1f, min(zoomFactor, max(portraitZoomFactor, landscapeZoomFactor)))
+                    val landscapeZoomFactor =
+                        videoDisplayView.width.toFloat() / (3 * videoDisplayView.height / 4)
+                    zoomFactor =
+                        max(0.1f, min(zoomFactor, max(portraitZoomFactor, landscapeZoomFactor)))
 
                     val currentCall: Call? = coreContext.core.currentCall
                     if (currentCall != null) {
@@ -114,14 +117,16 @@ class VideoZoomHelper(context: Context, private var videoDisplayView: View) : Ge
         return false
     }
 
-    override fun onDoubleTap(e: MotionEvent?): Boolean {
+    override fun onDoubleTap(e: MotionEvent): Boolean {
         val currentCall: Call? = coreContext.core.currentCall
         if (currentCall != null) {
             if (zoomFactor == 1f) {
                 // Zoom to make the video fill the screen vertically
-                val portraitZoomFactor = videoDisplayView.height.toFloat() / (3 * videoDisplayView.width / 4)
+                val portraitZoomFactor =
+                    videoDisplayView.height.toFloat() / (3 * videoDisplayView.width / 4)
                 // Zoom to make the video fill the screen horizontally
-                val landscapeZoomFactor = videoDisplayView.width.toFloat() / (3 * videoDisplayView.height / 4)
+                val landscapeZoomFactor =
+                    videoDisplayView.width.toFloat() / (3 * videoDisplayView.height / 4)
                 zoomFactor = max(portraitZoomFactor, landscapeZoomFactor)
             } else {
                 resetZoom()

@@ -2,9 +2,9 @@
   <library name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d105560cb9a5a7e6aa5e13b24c69d911/transformed/jetified-play-services-stats-17.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2a7ea966f16a316497bf7e0b80081436/transformed/jetified-play-services-stats-17.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a7ea966f16a316497bf7e0b80081436/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a7ea966f16a316497bf7e0b80081436/transformed/jetified-play-services-stats-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa497df689d9a30b4e2088ad25e63b09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fa497df689d9a30b4e2088ad25e63b09/transformed/jetified-play-services-stats-17.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

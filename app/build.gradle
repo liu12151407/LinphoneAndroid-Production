@@ -84,11 +84,11 @@ project.tasks['preBuild'].dependsOn 'getGitVersion'
 project.tasks['preBuild'].dependsOn 'linphoneSdkSource'
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion '31.0.0'
+    compileSdkVersion 33
+    buildToolsVersion '33.0.0'
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode appVersionCode
         versionName "${project.version}"
         applicationId getPackageName()
@@ -197,18 +197,14 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.media:media:1.6.0'
-    implementation 'androidx.fragment:fragment-ktx:1.5.2'
-    implementation 'androidx.core:core-ktx:1.8.0'
-
-    def nav_version = "2.5.1"
-    implementation "androidx.navigation:vigation-fragment-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
-
+    implementation 'androidx.fragment:fragment-ktx:1.5.3'
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.2")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.2")
     implementation "androidx.slidingpanelayout:slidingpanelayout:1.2.0"
     implementation "androidx.window:window:1.1.0-alpha03"
-
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'

@@ -2,9 +2,9 @@
   <library name="Gradle: com.google.firebase:firebase-iid-interop:17.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fcaf0067d4f8677bdc9982a0c132aea/transformed/jetified-firebase-iid-interop-17.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/719ee9c0470d025db867b01f8a2570b3/transformed/jetified-firebase-iid-interop-17.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/719ee9c0470d025db867b01f8a2570b3/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/719ee9c0470d025db867b01f8a2570b3/transformed/jetified-firebase-iid-interop-17.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/53da1b96b75f61640454dd12010ce9ca/transformed/jetified-firebase-iid-interop-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/53da1b96b75f61640454dd12010ce9ca/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

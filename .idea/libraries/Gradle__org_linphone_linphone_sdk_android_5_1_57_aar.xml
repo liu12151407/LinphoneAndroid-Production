@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: org.linphone:linphone-sdk-android:5.1.57@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ee5fe032bda0d304d459a6cf1478b061/transformed/jetified-linphone-sdk-android-5.1.57/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee5fe032bda0d304d459a6cf1478b061/transformed/jetified-linphone-sdk-android-5.1.57/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee5fe032bda0d304d459a6cf1478b061/transformed/jetified-linphone-sdk-android-5.1.57/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd15da11123dffe45530fdc80bd8e4c6/transformed/jetified-linphone-sdk-android-5.1.57/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd15da11123dffe45530fdc80bd8e4c6/transformed/jetified-linphone-sdk-android-5.1.57/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dd15da11123dffe45530fdc80bd8e4c6/transformed/jetified-linphone-sdk-android-5.1.57/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.linphone/linphone-sdk-android/5.1.57/83b937d8ec2fd4a9ecf49001ec3b78e7ad38027c/linphone-sdk-android-5.1.57-javadoc.jar!/" />

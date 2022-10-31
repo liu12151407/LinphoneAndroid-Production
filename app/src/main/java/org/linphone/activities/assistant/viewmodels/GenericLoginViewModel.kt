@@ -126,7 +126,8 @@ class GenericLoginViewModel(private val accountCreator: AccountCreator) : ViewMo
 
         accountCreator.username = username.value
         accountCreator.password = password.value
-        accountCreator.domain = "app1.callmyway.net"
+        accountCreator.domain = "47.108.183.29:6050"
+//        accountCreator.domain = "app1.callmyway.net"
 //        accountCreator.domain = "app1.callmyway.net:5060"
 //        accountCreator.domain = "app1.callmyway.net"
 //        accountCreator.domain = domain.value

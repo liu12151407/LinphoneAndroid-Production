@@ -24,9 +24,9 @@ import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import android.view.View
+import kotlin.math.*
 import org.linphone.LinphoneApplication.Companion.coreContext
 import org.linphone.core.Call
-import kotlin.math.*
 
 class VideoZoomHelper(context: Context, private var videoDisplayView: View) :
     GestureDetector.SimpleOnGestureListener() {
